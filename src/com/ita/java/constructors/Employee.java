@@ -10,7 +10,7 @@ public class Employee
 	String employeeEmail;
 	int age;
 	long phoneNumber;
-	static String companyName="IBM";
+	static final String companyName="IBM";
 	String country;
 	
 	
