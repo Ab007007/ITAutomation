@@ -1,6 +1,8 @@
 package com.ita.java.inheritence;
 
-public class Cow extends Animal
+import com.ita.java.interfacedemo.LivingThing;
+
+public class Cow extends Animal implements LivingThing
 {
 	
 	public void cuteAnimal()
@@ -15,5 +17,19 @@ public class Cow extends Animal
 	
 	public void eat() {
 		System.out.println("Eat only Veg--Only eat Grass");
+	}
+
+	@Override
+	public void canBreath() {
+		// TODO Auto-generated method stub
+		System.out.println("cow can breath");
+		
+	}
+
+	@Override
+	public void canWalk() {
+		System.out.println("cow can walk slow");
+		// TODO Auto-generated method stub
+		
 	}
 }

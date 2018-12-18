@@ -8,8 +8,9 @@ public class AnimalManager {
 		d.bark();
 		d.eat();
 		d.drink();
+		d.onlyAnimal();
 		
-		Lion l = new Lion();
+		/*Lion l = new Lion();
 		l.kingOfForest();
 		l.lazyAnimal();
 		l.eat();
@@ -19,6 +20,6 @@ public class AnimalManager {
 		c.cuteAnimal();
 		c.givesMilk();
 		c.eat();
-		c.drink();
+		c.drink();*/
 	}
 }

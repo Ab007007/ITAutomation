@@ -15,4 +15,9 @@ public class Animal {
 	{
 		System.out.println("always drink plenty of water");
 	}
+	
+	public final void onlyAnimal()
+	{
+		System.out.println("i'm only in animal class.. :(");
+	}
 }

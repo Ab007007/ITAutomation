@@ -1,6 +1,6 @@
 package com.ita.java.constructors;
 
-public class Person
+class Person
 {
 	String name;
 	String address;
