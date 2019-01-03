@@ -1,0 +1,6 @@
+hi
+i'm reading file
+from my java program..
+Its my 
+first 
+IO program.!!!!!

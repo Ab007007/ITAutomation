@@ -10,6 +10,7 @@ public class DesingsUsingLoops
 		System.out.println("Enter the number to generate a Pattern...");
 		//initiaizing all variables or obj ref to a default value
 		Scanner sc = null;
+	
 		int num =0;
 		// assigning a value to the variables or obj ref
 		sc = new Scanner(System.in);
@@ -23,5 +24,7 @@ public class DesingsUsingLoops
 			}
 			System.out.println();
 		}
+		
+		sc.close();
 	}
 }
